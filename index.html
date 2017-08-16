@@ -1,1 +1,163 @@
-Weekly WebDev Challenge 1
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>WWC 1</title>
+</head>
+
+<body>
+    <div class="logo">
+      <img src="images/top-logo.png" alt="top-logo">
+    </div>
+ <div class="container">
+
+     <div class="form1" > <!-- register form -->
+        <p>Register Form</p>
+
+        <form id="RegisterForm" action="#">
+          <div class="wrap">
+            <div class="field">
+              <span class="icons icon-user"></span>
+              <input type="text" name="username" placeholder="Username">
+            </div>
+            <div class="field">
+              <span class="icons icon-pass"></span>
+              <input type="password" name="password" placeholder="Password">
+            </div>
+            <div class="field">
+              <span class="icons icon-pass"></span>
+              <input type="password" name="confirm" placeholder="Confirm Password">
+            </div>
+            <div class="field">
+              <span class="icons icon-mail"></span>
+              <input type="email" name="email" placeholder="Email">
+            </div>
+            <div class="field">
+              <span class="icons icon-loc"></span>
+
+              <select name="Your location">
+                <option selected disabled hidden>Choose here</option>
+                <option>China</option>
+                <option>USA</option>
+                <option>Russia</option>
+              </select>
+            </div>
+            <div class="checkbox">
+              <input id="check1" type="checkbox" >
+              <label for="check1">
+                <span></span>
+                <div class="checktxt">I have read and accept the terms of use</div>
+              </label>
+            </div>
+              <input class = "smalltxt" type="submit" value="Sign up">
+          </div>
+        </form>
+
+    </div>
+
+
+
+   <div class="form3">
+     <p>Sign In Form</p>
+  <form id="SignIn" action="#">
+    <div class="wrap">
+      <div class="field">
+        <span class="icons icon-pass"></span>
+        <input type="password" name="password" placeholder="Username">
+      </div>
+      <div class="field">
+        <span class="icons icon-mail"></span>
+        <input type="email" name="email" placeholder="Password">
+      </div>
+      <div class="logset">
+        <div class="checkbox">
+          <input id="check3" type="checkbox" >
+          <label for="check3">
+            <span></span>
+            <div class="checktxt">Remember Me</div>
+          </label>
+        </div>
+      <input class = "buttonright" type="submit" value="Sign In">
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="form2" > <!-- send email form -->
+   <p>Send Email</p>
+
+   <form id="SendEmail" action="#">
+     <div class="wrap">
+       <div class="field">
+         <span class="icons icon-user"></span>
+         <input type="text" name="username" placeholder="Your Name">
+       </div>
+       <div class="field">
+         <span class="icons icon-mail"></span>
+         <input type="email" name="email" placeholder="Your Email">
+       </div>
+       <div class="field-textarea">
+         <textarea placeholder="Type your message ..."></textarea>
+       </div>
+
+       <div class="checkbox">
+         <input id="check2" type="checkbox" >
+         <label for="check2">
+           <span></span>
+           <div class="checktxt">Send a copy to my Email</div>
+         </label>
+       </div>
+         <input class = "smalltxt" type="submit" value="Send Email">
+     </div>
+   </form>
+
+</div>
+
+
+<div class="form4">
+  <p>Recover Form</p>
+  <form id="RecoverForm" action="#">
+  <div class="wrap">
+    <div class="field">
+      <span class="icons icon-mail"></span>
+      <input type="email" name="email" placeholder="Enter your Email">
+    </div>
+    <div class="field">
+      <span class="icons icon-mobile"></span>
+      <input type="tel" name="mobile" placeholder="Enter your phone number">
+    </div>
+
+    <div class="wraplog">
+      <input class = "buttonleft" type="submit" value="Send">
+      <input class = "buttonright2" type="submit" value="Done">
+    </div>
+  </div>
+  </form>
+</div>
+
+<div class="form5">
+  <p>Subscribe Form</p>
+  <form id="SubscribeForm" action="#">
+    <div class="wrap">
+      <div class="field">
+        <span class="icons icon-mail"></span>
+        <input type="email" name="email" placeholder="Enter your Name">
+      </div>
+      <div class="wraplog">
+        <input class = "buttonleft" type="submit" value="Subscribe">
+        <input class = "redbutton" type="submit" value="No, Thanks">
+      </div>
+    </div>
+  </form>
+  <div class="logo">
+    <img src="images/bottom-logo.png" alt="bottom-logo">
+  </div>
+ </div>
+
+
+ </div>
+</body>
+</html>
